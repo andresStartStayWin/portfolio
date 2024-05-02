@@ -1,14 +1,10 @@
-<!-- Software Gestión Stock: Una Aplicación para Controlar el Stock Actual, Ingresos y Egresos de Stock
-Software Gestión Stock es una aplicación diseñada para facilitar el control del stock actual, así como el registro de ingresos y egresos de stock. La aplicación cuenta con un registro detallado de cada movimiento en un log, lo que permite ver en detalle cada cambio en el inventario.
--->
-
 <!DOCTYPE html>
 <html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/assets/css/styles.css"> <!-- Asegúrate de vincular tu CSS aquí -->
-    <title>Software Gestión Stock</title>
+    <title>Compare Investments</title>
 </head>
 <body>
     <!-- Cabecera -->
@@ -34,35 +30,60 @@ Software Gestión Stock es una aplicación diseñada para facilitar el control d
         </nav>
     </header>
 
-    <section class="home bd-grid" id="home">
-        <div class="home__data">
-            <h1 class="home__title">Gestión <span class="home__title-color"> de Stock</span><br> Gestión de ingresos y egresos</h1>
-            <p>Muestra el inventario actual, los movimientos de ingreso y egreso de mercaderías, y un registro de cada uno de esos movimientos.</p>
-        </div>
-    
-        <div class="home__image-container">
-            <img src="/assets/img/stock.png" alt="Frontend Image 1" class="home__image">
-            <p class="home__image-description">Listado de inversiones ordenadas por Rentabilidad Anual Esperada.</p>
-        </div>
-    
-    
-        <h1 class="">Compare <span class="home__title-color">Investments</span><br> Visualiza y Compara Inversiones</h1>
-    
-    
-        <p>Los usuarios pueden también añadir nuevas oportunidades de inversión a la lista, proporcionando así una herramienta útil tanto para inversores experimentados como para aquellos que recién comienzan en el mundo de las inversiones.</p>
-    </div>
-    
+       <!-- Sección Principal Mejorada -->
+<section class="home bd-grid" id="home">
+    <div class="home__data">
+        <h1 class="home__title">Gestión <span class="home__title-color">de Stock</span></h1><br> 
+        <h2>Stock actual, movimientos y detalle</h2> <br>
+
+        <p>Muestra el inventario actual, los movimientos de ingreso y egreso de mercaderías, y un registro de cada uno de esos movimientos. <br>
+    </div><br>
+
     <div class="home__image-container">
-        <img src="/assets/img/CIFront2.png" alt="Frontend Image 1" class="home__image">
-        <p class="home__image-description">Desde aquí se agrega cualquier otro tipo de inversión.</p>
+        <img src="/assets/img/stock.png" alt="Frontend Image 1" class="home__image">
+        <p class="home__image-description">Movimientos de stocks con su detalle.</p>
     </div>
+<br><br>
+
+    <h1 class="">Posibles <span class="home__title-color"> acciones</span></h1>
+    <br>
     
-    </section>
+    <p>
+   
+        <h3>Principales Beneficios para los Usuarios:</h3>
+        <ul>
+            <li><strong>Agregar Productos al Inventario:</strong><br> Los usuarios pueden agregar productos al inventario especificando el nombre del producto y la cantidad que desean agregar. La acción se realiza haciendo clic en el botón "Agregar".</li> <br>
+
+                <li><strong>Quitar Productos del Inventario:</strong><br> Los usuarios también pueden quitar productos del inventario especificando el nombre del producto y la cantidad que desean quitar. La acción se realiza haciendo clic en el botón "Quitar". Si no hay suficiente stock disponible para quitar, se mostrará un mensaje de error.</li> <br>
+                
+                <li><strong>Registro de Acciones:</strong><br> Cada vez que se realiza una acción para agregar o quitar productos, se registra un registro en un log de acciones. El registro incluye detalles como la fecha y hora de la acción, la cantidad de productos afectados y cualquier información adicional proporcionada por el usuario en el campo "detalles".</li> <br>
+                
+                <li><strong>Interfaz de Usuario Web:</strong><br> La interfaz de usuario se presenta en un formulario web simple que muestra el estado actual del inventario y permite a los usuarios realizar las acciones mencionadas anteriormente. El resultado de las acciones se muestra en un mensaje en la parte superior de la página.</li> <br>
+                
+                <li><strong>Visualización del Log de Acciones:</strong><br> Además del inventario, se muestra el registro de acciones en la página web para que los usuarios puedan ver un historial de las operaciones realizadas.</li> <br>
+        </ul> <br>
+
+        <h3>Los beneficios de este programa incluyen:</h3>
+        <ul>                       
+                <li><strong>Gestión de Inventario Simplificada:</strong><br> Facilita la gestión de inventario al permitir a los usuarios agregar y quitar productos de manera eficiente.</li> <br>
+                
+                <li><strong>Registro de Acciones:</strong><br> Proporciona un registro de todas las acciones realizadas en el inventario, lo que facilita el seguimiento de cambios y proporciona transparencia en las operaciones.</li> <br>
+                
+                <li><strong>Interfaz de Usuario Amigable:</strong><br> Ofrece una interfaz web amigable que no requiere conocimientos técnicos avanzados para su uso.</li> <br>
+                
+                <li><strong>Facilidad de Uso:</strong><br> Permite a los usuarios realizar operaciones de gestión de inventario de manera rápida y sencilla a través de la web.</li> <br>
+                
+                <li><strong>Adaptabilidad:</strong><br> Este programa puede ser un punto de partida para aplicaciones más complejas de gestión de inventario al utilizar Flask como marco de trabajo, lo que permite la expansión y personalización según las necesidades del usuario.</li> <br>
+        </ul> <br>
+    </p>
     
-        
+
+</section>
+
     
-    
-    <!-- Pie de página -->
-    <footer class="footer">
-        <p class="footer__copy">&#169; 2024 Compare Investments. Todos los derechos reservados.</p>
-    </footer>
+
+
+<!-- Pie de página -->
+<footer class="footer">
+    <p class="footer__copy">&#169; .</p>
+</footer>
